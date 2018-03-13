@@ -1,0 +1,27 @@
+# 最近長截圖掛件文檔
+
+**最近長截圖** 掛件需要您手動打開。
+
+---
+
+`1` 在通知中心的掛件頁的最下方找到 **編輯** 按鈕。
+
+<div align=center>
+<img src="../image/guide-widget-1.jpg" width="240px" />
+</div>
+
+---
+
+`2` 在列表裏找到 **最近長截圖**，點擊左側 **+** 按鈕，然後點擊 **完成**。
+
+<div align=center>
+<img src="../image/guide-widget-2.jpg" width="240px" />
+</div>
+
+---
+
+`3` 手動連續截圖後，掛件會自己檢測最近的截圖，並且拼接成長截圖。拼接成功後，您可以直接在掛件保存長截圖。
+
+<div align=center>
+<img src="../image/guide-widget-3.jpg" width="240px" />
+</div>
