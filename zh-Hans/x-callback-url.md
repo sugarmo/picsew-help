@@ -1,0 +1,61 @@
+# x-callback-url 文档
+
+Picsew 实现了 [x-callback-url](http://x-callback-url.com/)，这是一种通用的 URL Scheme 协议。允许你在不同的 App 之间通信，Workflow、Launch Center Pro 等 App 都支持 x-callback-url，因此 Picsew 支持与他们协作。
+
+Picsew 的 x-callback-url 格式为：
+
+```
+picsew://x-callback-url/[动作]?[动作参数]&[x-callback 参数]
+```
+
+## 动作
+
+### /scroll
+
+使用指定的图片进行长截图拼接
+
+### /vert
+
+使用指定的图片进行竖向拼接。
+
+### /hori
+
+使用指定的图片进行横向拼接。
+
+## 动作参数
+
+- **in** *（必选）*指定如何获取输入图片，可选值为 `paste`、`latest` 和 `recent`。当为 `paste` 时，从剪贴板粘贴图片。当为 `latest` 时，获取设备相册的最后 N 张图片，N 由另一个参数 `count` 决定。当为 `recent` 时，自动检测最近的截图。
+
+- **count** 当 `in=latest` 时，为必选参数，指定要获取的图片的数量。
+    
+- **out** *（必选）*指定如何输出拼接结果，可选值为 `copy` 和 `save`。当为 `copy` 时，复制结果到剪贴板。当为 `save` 时，保存结果到设备相册。
+
+- **watermark** *（可选）*指定是否加上水印，可选值为 `single` 和 `repeat`，默认不加上水印。水印文字和位置都使用 App 内的默认水印设置，如果未设置妥当，则最终结果也不会有水印。当为 `single` 时，在拼图的默认位置添加一个水印。当为 `repeat` 时，在每张图的默认位置都添加一个水印。
+
+- **mockup** *（可选）*指定是否加上设备外壳，可选值为 `white` 和 `black`，默认不加上外壳。外壳自动选取，选取逻辑跟 App 内保持一致。如果拼图比例不够修长，则最终结果依然不会加上外壳。当为 `white` 时，默认选取金色（iPhone X 则为银色），当为 `black` 时，默认选取灰色。
+
+- **clean_status** *（可选）*指定是否需要清理状态栏，当为 `yes` 时，自动清理状态栏。默认不清理。
+
+- **delete_source** *（可选）*指定是否需要删除来源图片，当为 `yes` 时，删除来源图片。默认不删除。
+
+
+## 返回参数
+
+### X-SUCCESS
+
+- **local_id** *（可能为空）*当选择保存结果到设备相册时，该参数为对应的 `PHAsset` 的 `localIdentifier`。
+
+
+## 例子
+
+1. 使用最近的截图进行长截图拼接，自动清理状态栏，并且加上白色设备外壳，把结果保存到设备相册，然后删除来源图片。
+
+```
+picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white& delete_source=yes
+```
+
+2. 使用设备相册的最后3张图进行竖向拼接，并且加上默认水印，把结果复制到剪贴板。
+
+```
+picsew://x-callback-url/vert?in=latest&count=3&out=copy&mockup=white
+```
