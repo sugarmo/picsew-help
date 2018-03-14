@@ -48,13 +48,13 @@ picsew://x-callback-url/[动作]?[动作参数]&[x-callback 参数]
 
 ## 例子
 
-1. 使用最近的截图进行长截图拼接，自动清理状态栏，并且加上白色设备外壳，把结果保存到设备相册，然后删除来源图片。
+- 使用最近的截图进行长截图拼接，自动清理状态栏，并且加上白色设备外壳，把结果保存到设备相册，然后删除来源图片。
 
 ```
 picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white& delete_source=yes
 ```
 
-2. 使用设备相册的最后3张图进行竖向拼接，并且加上默认水印，把结果复制到剪贴板。
+- 使用设备相册的最后3张图进行竖向拼接，并且加上默认水印，把结果复制到剪贴板。
 
 ```
 picsew://x-callback-url/vert?in=latest&count=3&out=copy&mockup=white

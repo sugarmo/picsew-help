@@ -48,13 +48,13 @@ picsew://x-callback-url/[動作]?[動作參數]&[x-callback 參數]
 
 ## 例子
 
-1. 使用最近的截圖進行長截圖拼接，自動清理狀態欄，並且加上白色設備外殼，把結果保存到設備相冊，然後刪除來源圖片。
+- 使用最近的截圖進行長截圖拼接，自動清理狀態欄，並且加上白色設備外殼，把結果保存到設備相冊，然後刪除來源圖片。
 
 ```
 picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white& delete_source=yes
 ```
 
-2. 使用設備相冊的最後3張圖進行豎向拼接，並且加上默認水印，把結果復制到剪貼板。
+- 使用設備相冊的最後3張圖進行豎向拼接，並且加上默認水印，把結果復制到剪貼板。
 
 ```
 picsew://x-callback-url/vert?in=latest&count=3&out=copy&mockup=white
