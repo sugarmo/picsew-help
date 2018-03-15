@@ -1,6 +1,6 @@
 # x-callback-url 文檔
 
-Picsew 實現了 [x-callback-url](http://x-callback-url.com/)，這是一種通用的 URL Scheme 協議。允許你在不同的 App 之間通信，Workflow、Launch Center Pro 等 App 都支持 x-callback-url，因此 Picsew 支持與他們協作。
+Picsew 實現了 [x-callback-url](http://x-callback-url.com/) 協議，這是一種通用的 URL Scheme 協議。它能讓你在不同的 App 之間通信，[Workflow](https://workflow.is/)、[Launch Center Pro](https://contrast.co/launch-center-pro/) 等 App 都支持了 x-callback-url，因此 Picsew 也支持與他們協作。
 
 Picsew 的 x-callback-url 格式為：
 
@@ -51,11 +51,11 @@ picsew://x-callback-url/[動作]?[動作參數]&[x-callback 參數]
 - 使用最近的截圖進行長截圖拼接，自動清理狀態欄，並且加上白色設備外殼，把結果保存到設備相冊，然後刪除來源圖片。
 
 ```
-picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white& delete_source=yes
+picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white&delete_source=yes
 ```
 
-- 使用設備相冊的最後3張圖進行豎向拼接，並且加上默認水印，把結果復制到剪貼板。
+- 使用設備相冊的最後3張圖進行豎向拼接，每張圖片都加上默認水印，把結果復制到剪貼板。
 
 ```
-picsew://x-callback-url/vert?in=latest&count=3&out=copy&mockup=white
+picsew://x-callback-url/vert?in=latest&count=3&out=copy&watermark=repeat
 ```
