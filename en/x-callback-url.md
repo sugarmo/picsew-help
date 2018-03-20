@@ -28,7 +28,7 @@ Use the specified images for Horizontal Stitching.
 
 - **count** When `in=latest`, this is a required parameter, specify the number of images to get.
 
-- **out** *(Required)* Specifies how to output the stitching result. The allowed values ​​are `copy` and `save`. When `copy`, copy the result to the clipboard. When `save`, save the result to the photo album.
+- **out** *(Required)* Specifies how to output the stitching result. The allowed values are `copy`, `save` and `save_copy`. When `copy`, copy the result to the clipboard. When `save`, save the result to the photo album. When `save_copy`, save and copy the result.
 
 - **watermark** *(optional)* Specifies whether to add watermark. The allowed values ​​are `single` and `repeat`. By default, no watermark is added. Both watermark text and location use the default watermark setting in the App. If default setting not configure properly, the final result will not have a watermark. When `single`, add a single watermark to the default position of the result image. When `repeat`, a watermark is added to the default position of each image.
 

@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Welcome to Picsew Help
 
-You can use the [editor on GitHub](https://github.com/sugarmo/picsew-help/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a website of Picsew documents.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Documents
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**English**
 
-```markdown
-Syntax highlighted code block
+[Web Snapshot Extension](/en/guide-web-snapshot)
 
-# Header 1
-## Header 2
-### Header 3
+[Recent Scrollshot Widget](/en/guide-widget)
 
-- Bulleted
-- List
+[Create Scrollshot Extension](/en/guide-create-scrollshot)
 
-1. Numbered
-2. List
+[X-Callback-URL](/en/x-callback-url)
 
-**Bold** and _Italic_ and `Code` text
+[FAQ](/en/faq)
 
-[Link](url) and ![Image](src)
-```
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**简体中文**
 
-### Jekyll Themes
+[网页快照插件](/zh-Hans/guide-web-snapshot)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sugarmo/picsew-help/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[最近长截图挂件](/zh-Hans/guide-widget)
 
-### Support or Contact
+[创建长截图插件](/zh-Hans/guide-create-scrollshot)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[X-Callback-URL](/zh-Hans/x-callback-url)
+
+[常见问题](/zh-Hans/faq)
+
+---
+
+**繁体中文**
+
+[網頁快照插件](/zh-Hant/guide-web-snapshot)
+
+[最近長截圖掛件](/zh-Hant/guide-widget)
+
+[創建長截圖插件](/zh-Hant/guide-create-scrollshot)
+
+[X-Callback-URL](/zh-Hant/x-callback-url)
+
+[常見問題](/zh-Hant/faq)
+
+### Contact
+
+Having other questions? Please contact [picsewapp@gmail.com](mailto:picsewapp@gmail.com).
