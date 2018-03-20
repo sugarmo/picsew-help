@@ -57,3 +57,18 @@ picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white&
 ```
 picsew://x-callback-url/vert?in=latest&count=3&out=copy&mockup=white
 ```
+
+## Workflow Examples
+
+**[Make Scrollshot](https://workflow.is/workflows/e9b64bc79d854bb0a9f9531d6cab5bdd)** *widet*
+
+This workflow allows you to select a number of latest screenshots, run Picsew to automatically stitching them together, save the result to the photo album, then return to Workflow, view the result, delete the source images.
+
+
+**[Recent Scrollshot](https://workflow.is/workflows/b3084df208c34b74877471bddad84576)** *widget*
+
+This workflow will automatically detect recent screenshots, run Picsew to automatically stitching them together, adding mockup or cleaning status bar by your selection, save the result to the photo album, delete the source images, then return to Workflow, view the result.
+
+**[Create Scrollshot](https://workflow.is/workflows/a9c746a2306e400c914d274b5d0998bd)** *action*
+
+This workflow use your selected screenshots as input, run Picsew to automatically stitching them together, adding mockup or cleaning status bar by your selection, save the result to the photo album, then return to Workflow, view the result, delete the source images.

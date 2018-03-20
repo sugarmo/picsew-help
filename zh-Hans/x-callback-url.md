@@ -59,3 +59,17 @@ picsew://x-callback-url/scroll?in=recent&out=save&clean_status=yes&mockup=white&
 ```
 picsew://x-callback-url/vert?in=latest&count=3&out=copy&watermark=repeat
 ```
+
+## Workflow 例子
+
+**[制作长截图](https://workflow.is/workflows/e9b64bc79d854bb0a9f9531d6cab5bdd)** *挂件*
+
+这个工作流会让你选择最新截图的数量，调起 Picsew 来自动拼接，保存图片到相册，然回到 Workflow，查看结果，删除来源图片。
+
+**[最近长截图](https://workflow.is/workflows/b3084df208c34b74877471bddad84576)** *挂件*
+
+这个工作流会自动检测最近的截图，调起 Picsew 来自动拼接，并且根据你的选择加上设备外壳或者清理状态栏，保存图片到相册，删除来源图片，然回到 Workflow，查看结果。
+
+**[创建长截图](https://workflow.is/workflows/a9c746a2306e400c914d274b5d0998bd)** *动作*
+
+这个工作流会根据你选择的截图，调起 Picsew 来自动拼接，并且根据你的选择加上设备外壳或者清理状态栏，保存图片到相册，然回到 Workflow，查看结果，删除来源图片。
