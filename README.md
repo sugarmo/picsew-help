@@ -8,43 +8,43 @@ This is a website of Picsew documents.
 
 **English**
 
-[Web Snapshot Extension](/en/guide-web-snapshot)
+[Web Snapshot Extension](./en/guide-web-snapshot)
 
-[Recent Scrollshot Widget](/en/guide-widget)
+[Recent Scrollshot Widget](./en/guide-widget)
 
-[Create Scrollshot Extension](/en/guide-create-scrollshot)
+[Create Scrollshot Extension](./en/guide-create-scrollshot)
 
-[X-Callback-URL](/en/x-callback-url)
+[X-Callback-URL](./en/x-callback-url)
 
-[FAQ](/en/faq)
+[FAQ](./en/faq)
 
 ---
 
 **简体中文**
 
-[网页快照插件](/zh-Hans/guide-web-snapshot)
+[网页快照插件](./zh-Hans/guide-web-snapshot)
 
-[最近长截图挂件](/zh-Hans/guide-widget)
+[最近长截图挂件](./zh-Hans/guide-widget)
 
-[创建长截图插件](/zh-Hans/guide-create-scrollshot)
+[创建长截图插件](./zh-Hans/guide-create-scrollshot)
 
-[X-Callback-URL](/zh-Hans/x-callback-url)
+[X-Callback-URL](./zh-Hans/x-callback-url)
 
-[常见问题](/zh-Hans/faq)
+[常见问题](./zh-Hans/faq)
 
 ---
 
 **繁体中文**
 
-[網頁快照插件](/zh-Hant/guide-web-snapshot)
+[網頁快照插件](./zh-Hant/guide-web-snapshot)
 
-[最近長截圖掛件](/zh-Hant/guide-widget)
+[最近長截圖掛件](./zh-Hant/guide-widget)
 
-[創建長截圖插件](/zh-Hant/guide-create-scrollshot)
+[創建長截圖插件](./zh-Hant/guide-create-scrollshot)
 
-[X-Callback-URL](/zh-Hant/x-callback-url)
+[X-Callback-URL](./zh-Hant/x-callback-url)
 
-[常見問題](/zh-Hant/faq)
+[常見問題](./zh-Hant/faq)
 
 ### Contact
 
