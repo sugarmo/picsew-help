@@ -38,12 +38,6 @@ Use the specified images for Horizontal Stitching.
 
 - **delete_source** *(optional)* Specifies whether the source images needs to be deleted. When `yes`, the source images will be deleted. It is not deleted by default.
 
-## Return Parameters
-
-### X-SUCCESS
-
-- **local_id** *(may be missing)* When you choose to save the result to the photo album, the value of this parameter is the `localIdentifier` of the corresponding `PHAsset`.
-
 ## Examples
 
 - Use the most recent screenshots for scrollshot stitching, automatically clear the status bar, and add a white device mockup, save the results to the photo album, and then delete the source images.
