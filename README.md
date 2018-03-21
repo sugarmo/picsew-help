@@ -1,8 +1,8 @@
 ## Welcome to Picsew Help
 
-This is a website of Picsew documents.
+This is a website of Picsew documentation.
 
-### Documents
+### Documentation
 
 ---
 

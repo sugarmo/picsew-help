@@ -1,4 +1,4 @@
-# x-callback-url Document
+# x-callback-url Documentation
 
 Picsew implements the [x-callback-url](http://x-callback-url.com/) protocol, a generic URL Scheme protocol. It allows you to communicate between different apps. [Workflow](https://workflow.is/), [Launch Center Pro](https://contrast.co/launch-center-pro/) and other apps support x-callback-url, so Picsew also supports working with them.
 

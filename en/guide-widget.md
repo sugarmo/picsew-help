@@ -1,4 +1,4 @@
-# Recent Scrollshot Widget Document
+# Recent Scrollshot Widget Documentation
 
 **Recent Scrollshot** widget requires you to enable it manually.
 

@@ -1,4 +1,4 @@
-# Web Snapshot Extension Document
+# Web Snapshot Extension Documentation
 
 **Web Snapshot** extension requires you to enable it manually.
 

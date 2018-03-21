@@ -1,4 +1,4 @@
-# Create Scrollshot Extension Document
+# Create Scrollshot Extension Documentation
 
 **Create Scrollshot** extension requires you to enable it manually.
 
