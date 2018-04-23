@@ -1,4 +1,6 @@
-## Welcome to Picsew Help
+## Welcome to Picsew Help (DEPRECATED)
+
+**This website is deprecated, please visit [picsew-gitbook](https://sugarmo.github.io/picsew-gitbook/) intead.**
 
 This is a website of Picsew documentation.
 
