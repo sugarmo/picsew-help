@@ -3,3 +3,5 @@ title: Picsew Help
 description: Documentation for using Picsew.
 github:
   is_project_page: false
+plugins:
+  - jekyll-redirect-from
